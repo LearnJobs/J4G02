@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rgistration Form</title>
+</head>
+<body style="background-color:cyan;">
+		<h1 class="text-left">REGISTRATION FORM</h1>
+		<form action="#" method="post">
+			<label >First Name:</label>
+			<input type="text-center" name="fname" id ="fname">
+			<br>
+
+			<label>Lirst Name:</label>
+			<input type="text" name="lname" id ="lname">
+
+            <br>
+
+			<label>E-mail:</label>
+			<input type="email" name="email" id ="email">
+
+            <br>
+
+			<label>Date Of Birth:</label>
+			<input type="date" name="dob" id ="dob">
+<br>
+
+			<label>Mobile Number:</label>
+			<input type="number" name="Number" id ="Number">
+			<br>
+
+			<label>Your Address:</label>
+			<input type="text" name="Address" id ="Address">
+			<br>
+
+			<label>Country:</label>
+			<select name="country" id="country" placeholder="Country">
+			<option value="India">India</option>
+			<option value="Pakistan">Pakistan</option>
+			<option value="Ireland">Ireland</option>
+			<option value="Srilanka">Srilanka</option>
+			<option value="China">China</option>
+			</select>
+
+            <br><br>
+			<label>Name Of The Examination:</label>
+			<select name="Name Of The Examination" id="Name of The Examination" placeholder="Name Of The Examination">
+			<option value="BTECH">BTECH</option>
+			<option value="MCA">MCA</option>
+			<option value="MBA">MBA</option>
+			<option value="MBBS">MBBS</option>
+			<option value="BIO-TECH">BIO-TECH</option>
+			</select>
+
+			<br>
+			<label>Mark:</label>
+			<select name="Mark Secured" id="Mark Secured" placeholder="Mark Secured">
+			<option value="Above 87%">Above 87%</option>
+			<option value="Above 80%">Above 70%</option>
+			<option value="Above 70%">Above 65%</option>
+			<option value="Below 60%">Below 60%</option>
+			</select>
+			<br><br>
+
+			<label>Choose your Stream:</label>
+			<select name="Stream" id="Stream" placeholder="Mark Secured">
+			<option value="ARTS">ARTS</option>
+			<option value="COMMERCE">COMMERCE</option>
+			<option value="SCIENCE">SCIENCE</option>
+			</select>
+			<br><br>
+
+	        <p>Do you want to stay in hostel?</p>
+
+			<input type="radio" name="yes_no" checked>yes
+			<br>
+			<input type="radio" name="yes_no" checked>No
+			<br><br>
+
+			<p>Do you have your own communication?</p>
+
+			<input type="radio" name="yes" checked>yes
+			<br>
+			<input type="radio" name="yes" checked>No
+			<br>
+
+
+
+
+		    <br><br>
+
+		    <button type="button">Submit</button>
+			<button type="button">Reset</button>
+
+		</form>
+
+
+
+</body>
+</html> 
