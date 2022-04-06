@@ -1,0 +1,40 @@
+<html>
+
+<head> &nbsp;&nbsp;&nbsp;&nbsp;
+    <b>SOME GREAT PEOPLES OF INDIA</head>
+<style></style>
+
+<title>HTML Practice Demo1</title>
+
+
+<table>
+    <tr>
+        <th>SNo.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <th>Photos</th>
+        <th>Nmae & Address</th>
+    </tr>
+     <tr>
+        <td>01</td>
+        <td><img src="C:\Users\triveni\Desktop\mr president.jpeg" width="50" height="60"></td>
+        <td>Mr. Ram Nath <br>Kovind ji Rashtrapati Bhavan, New Delhi, India,110 004</td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td><img src="C:\Users\triveni\Desktop\prime minister.jpeg" style="width:50px;height:60px;"> </td>
+        <td>Narendra Modi ji <br> 7, Lok Kalyan Marg, New Delhi, Delhi, India</td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td><img src="C:\Users\triveni\Desktop\chief justice.jpeg" width="50" height="60"></td>
+        <td>N. V. Ramana ji <br>Ponnavaram Village, Krishna District. </td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td><img src="C:\Users\triveni\Desktop\chief of defense.jpeg" width="50" height="60"></td>
+        <td>General Manoj Mukund Naravane ji <br>Pune India Maharaatra 001122</td>
+       </tr>
+</table>
+
+</html>
+© 2022 GitHub, Inc.
