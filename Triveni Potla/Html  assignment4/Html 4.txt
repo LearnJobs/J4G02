@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <b>List of Computer Language And Uses.
+<style>
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border: 1px solid rgb(97, 16, 204);
+}  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: rgb(184, 13, 13);
+    color:#fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute
+    z-index 1;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+</style>
+</style>
+</head>
+<body>
+<br><br>
+<div class="tooltip">
+<table>
+    <tr>
+        <th>SNo.</th>
+        <th>Language</th>
+        <th>Purpose of Use</th>
+    </tr>
+    <tr>
+        <td>01.</td>
+        <td>:Java SE </td>
+        <td>:Java Use In App Development,Wessite Development</td>
+    </tr>
+    <tr>
+        <td>02.</td>
+        <td>:HTML </td>
+ <td>:HTML uses as Web Page Scripting  </td>
+    </tr>
+    <tr>
+        <td>03.</td>
+        <td>:Python</td>
+        <td>:Python mostly use in DSA,ML and in AI.</td>
+    </tr>
+    <tr>
+        <td>04.</td>
+        <td>:Java Script</td>
+        <td>:Java Script is use to make web page Function </td>
+    </tr>
+
+ <br><br>
+</table>
+ <span class="tooltiptext">this is programing languages</span>
+</div>
+
+</body>
+
+</html> 
