@@ -1,0 +1,46 @@
+<h1>Employee Form</h1>
+<div class="form-group">
+  <label for="Employee Id">Employee Id</label>
+  <input required minlength="7" maxlength="10" ngModel="employeeId"
+   type="text" #employeeId="ngModel" class="form-control" id="employeeId">
+
+   <div class="alert alert-danger" *ngIf="employeeId.touched && !employeeId.valid">
+     <div *ngIf="employeeId.errors?.['required']">Employee Id Not Be Blank</div>
+     <div *ngIf="employeeId.errors?.['minlength']">Employee Id atleast 7 characters</div>
+     <div *ngIf="employeeId.errors?.['maxlength']">Employee Id maximum 20 characters</div>
+
+   </div>
+</div>
+
+<div class="form-group">
+  <label for="Employee Name">Employee Name</label>
+  <input required minlength="5" maxlength="20" ngModel="employeeName"
+   type="text" #employeeName="ngModel" class="form-control" id="employeeName">
+
+   <div class="alert alert-danger" *ngIf="employeeName.touched && !employeeName.valid">
+     <div *ngIf="employeeName.errors?.['required']">Employee Name Not Be Blank</div>
+     <div *ngIf="employeeName.errors?.['minlength']">Employee Name atleast 5 characters</div>
+     <div *ngIf="employeeName.errors?.['maxlength']">Employee Name maximum 20 characters</div>
+
+   </div>
+  
+</div>
+
+
+<div class="form-group">
+  <label for="Employee Department">Employee Department</label>
+  <input required minlength="3" maxlength="20" ngModel="employeeDepartment"
+   type="text" #employeeDepartment="ngModel" class="form-control" id="employeeDepartment">
+
+   <div class="alert alert-danger" *ngIf="employeeDepartment.touched && !employeeDepartment.valid">
+     <div *ngIf="employeeDepartment.errors?.['required']"> Department Name Not Be Blank</div>
+     <div *ngIf="employeeDepartment.errors?.['minlength']">Department Name atleast 3 characters</div>
+     <div *ngIf="employeeDepartment.errors?.['maxlength']">Department Name maximum 20 characters</div>
+   </div>    
+</div><br />
+
+<div>
+     <button class="btn btn-success" >Submit</button>&nbsp;
+     <button class="btn btn-danger" >Cancel</button>
+</div>
+
