@@ -1,0 +1,12 @@
+<h1>Employee Registration</h1>
+
+<form #employeeForm="ngForm" (ngSubmit)="getUserValue(employeeForm.value)">
+  <label> Enter Employee Id: </label>
+     <input required type="text" ngModel name="userid" placeholder="Enter Employee Id"> <br><br>
+     <label> Enter Employee Name: </label>  
+     <input required type="text" ngModel name="username" placeholder="Enter Employee Name"> <br><br>
+     <label> Enter Employee Department: </label>
+     <input required type="text" ngModel name="Department" placeholder="Enter Employee Deparment"> <br><br>
+
+     <button [disabled]="!employeeForm.valid">submit </button>
+</form>
